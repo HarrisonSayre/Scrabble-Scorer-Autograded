@@ -111,6 +111,7 @@ let ScrabbleScorerStructure = {
 
 const scoringAlgorithms = [simpleScorerStructure, vowelBonusScorerStructure, ScrabbleScorerStructure];
 
+//Asks user for a word and a soring method.
 function scorerPrompt() {
    let word = input.question("Let's play some scrabble!\n\nEnter a word to score: ")
    //Check to see user enters a legal scrabble word.
